@@ -1,0 +1,135 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar-inverse {
+    min-height: 35px;
+    height: 35px;
+    background-color: #2b54a1;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-nav > li > a {
+    height: 35px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    margin-top: -6px;
+    margin-left: 25px!important;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    line-height: normal;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    margin-top: -6px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.btn-default {
+    border-radius: 0px;
+}
+
+.container {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: none;
+}
+
+#navbar-links {
+    margin-left: 50px;
+    border-right: 1px solid #1a315b;
+    height: 100%;
+}
+
+#navbar-links li a {
+    color: white;
+    height: 100%;
+}
+
+#navbar-links li {
+    border-left: 1px solid #1a315b;
+    height: 100%;
+}
+
+#navbar-links li a:hover {
+    background-color: #3567c4;
+}
+
+.container .jumbotron {
+    width: 100%;
+    margin-top: -25px;
+    border-bottom: 1px dotted gray;
+}
+
+.container .jumbotron h1 {
+    font-size: 20px;
+}
+
+.container .jumbotron p {
+    font-size: 14px;
+}
+
+.row {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer {
+    text-align: center;
+}
